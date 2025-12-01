@@ -5,7 +5,11 @@ class Spark {
         System.out.println("Hello");
     }
 
-    public void m1() {
+    public void payment() {
         System.out.println("m1");
+    }
+
+    public void notification() {
+        System.out.println("Hello user");
     }
 }
