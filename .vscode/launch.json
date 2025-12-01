@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spark",
+            "request": "launch",
+            "mainClass": "Spark",
+            "projectName": "Git_cf23471e"
+        },
+        {
+            "name": "Debug C (GDB)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "cwd": "${fileDirname}",
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "build C file"
+        },
+        {
+            "name": "Debug C++ (GDB)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "cwd": "${fileDirname}",
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "build C++ file"
+        },
+        {
+            "name": "Debug Java File",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "${fileBasenameNoExtension}",
+            "console": "integratedTerminal",
+            "cwd": "${fileDirname}",
+            "preLaunchTask": "build Java file"
+        }
+    ]
+}
